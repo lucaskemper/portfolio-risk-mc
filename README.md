@@ -14,7 +14,7 @@ This framework provides a comprehensive solution for portfolio risk analysis by 
   - Dynamic feature engineering
 
 - **⚡ High-Performance Monte Carlo**: 
-  - GPU-accelerated simulations
+  - GPU-accelerated simulations (not sure)
   - Parallel processing capabilities
   - Efficient memory management
 
