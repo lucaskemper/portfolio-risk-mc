@@ -1,4 +1,4 @@
-# Portfolio Risk Analysis using Monte Carlo Simulation and Machine Learning /w Antonio Schoeffel, HEC Lausanne (WORK IN PROGRESS)
+# Portfolio Risk Analysis using Monte Carlo Simulation and Machine Learning /w Antonio Schoeffel & , HEC Lausanne (WORK IN PROGRESS)
 A sophisticated quantitative framework combining Monte Carlo simulation, machine learning, and advanced risk metrics, developed as part of a project for the class "Data Science & Advanced Programming, Year 1, MscF HEC Lausanne",
 
 ## Table of Contents
