@@ -4,7 +4,6 @@ import numpy as np
 
 @dataclass
 class AdvancedRegimeEngine:
-    """Enterprise-grade market regime detection and risk adaptation"""
     
     REGIME_PARAMETERS = {
         'calm': {
