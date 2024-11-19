@@ -188,6 +188,50 @@ forecasts = model.forecast_volatility(horizon=5)
 
 The implementation provides a robust foundation for risk modeling and volatility forecasting within the broader portfolio management framework.
 
+
+## Gaussian Mixture Model (GMM) Implementation
+
+A sophisticated market regime detection system using Gaussian Mixture Models with enhanced statistical features. This implementation provides robust market state classification and transition probability analysis.
+
+### Key Features
+
+- **Advanced Regime Detection**:
+  - Multi-regime classification (default: 3 states)
+  - Probabilistic state assignments
+  - Dynamic regime transition analysis
+  - Risk-based regime mapping
+
+- **Statistical Analysis**:
+  - Comprehensive regime statistics
+  - Transition probability matrices
+  - Duration analysis per regime
+  - Higher-order moments (skewness, kurtosis)
+  - Risk metrics (VaR, CVaR) per regime
+
+- **Flexible Configuration**:
+  - Customizable number of regimes
+  - Multiple covariance structures
+  - Robust initialization options
+  - Convergence controls
+
+### Usage Example
+```python
+# Initialize GMM model with custom configuration
+model = MarketRegimeGMM(
+    config=GMMConfig(
+        n_components=3,          # Number of regimes
+        covariance_type='full',  # Covariance structure
+        min_regime_prob=0.1      # Minimum regime probability
+    )
+)
+
+# Fit model and analyze regimes
+model.fit(returns_data)
+current_regime = model.detect_regime(recent_returns)
+regime_summary = model.get_regime_summary()
+```
+
+The model provides a sophisticated framework for market regime detection, enabling adaptive portfolio management strategies based on market conditions.
   
 ## 📦 Installation
 
