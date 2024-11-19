@@ -147,7 +147,7 @@ where:
 - Parallel processing
 - Memory efficient algorithms
 
-## 🤝 Contributing
+## 🤝 Contributing (only for authorised users)
 
 ### Development Workflow
 1. Fork the repository
