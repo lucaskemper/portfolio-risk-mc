@@ -68,6 +68,83 @@ graph TD
 - Regime-aware scenario generation
 - Efficient path calculations
 
+## Stress Test Scenarios
+
+The Monte Carlo simulation includes various stress scenarios to test portfolio resilience:
+
+### Historical Market Events (16%)
+- **COVID-19 Crash** (5%)
+  - Volatility: 4x normal
+  - Return Impact: -15%
+  - Correlation: +50%
+
+- **2008 Financial Crisis** (4%)
+  - Volatility: 3.5x normal
+  - Return Impact: -18%
+  - Correlation: +60%
+
+- **Black Monday** (3%)
+  - Volatility: 5x normal
+  - Return Impact: -23%
+  - Correlation: +70%
+
+- **Tech Bubble Burst** (4%)
+  - Volatility: 2.5x normal
+  - Return Impact: -8%
+  - Correlation: +30%
+
+### Market Stress Events (15%)
+- **Hyperinflation** (3%)
+  - Volatility: 4x normal
+  - Return Impact: -20%
+  - Correlation: +60%
+
+- **Currency Crisis** (3%)
+  - Volatility: 3x normal
+  - Return Impact: -15%
+  - Correlation: +50%
+
+- **Liquidity Crisis** (3%)
+  - Volatility: 2.5x normal
+  - Return Impact: -15%
+  - Correlation: +40%
+
+- **Volatility Spike** (3%)
+  - Volatility: 3x normal
+  - Return Impact: -10%
+  - Correlation: +80%
+
+- **Stagflation** (3%)
+  - Volatility: 2.5x normal
+  - Return Impact: -12%
+  - Correlation: +40%
+
+### Positive Scenarios (19%)
+- **Tech Breakthrough** (4%)
+  - Volatility: 3x normal
+  - Return Impact: +25%
+  - Correlation: -30%
+
+- **Economic Boom** (5%)
+  - Volatility: 2x normal
+  - Return Impact: +20%
+  - Correlation: -20%
+
+- **Market Recovery** (5%)
+  - Volatility: 1.5x normal
+  - Return Impact: +15%
+  - Correlation: -10%
+
+- **Global Growth** (5%)
+  - Volatility: 1.8x normal
+  - Return Impact: +18%
+  - Correlation: -15%
+
+### Base Scenario (50%)
+- Normal market conditions
+- No additional stress factors applied
+
+  
 ## 📦 Installation
 
 ### Prerequisites
