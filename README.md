@@ -291,31 +291,6 @@ source venv/bin/activate  # Unix/macOS
 pip install -r requirements.txt
 ```
 
-### Dependencies
-```python
-# Core Libraries
-numpy>=1.21.0
-pandas>=1.3.0
-scipy>=1.7.0
-scikit-learn>=0.24.2
-
-# Machine Learning
-torch>=1.9.0
-pymc3>=3.11.0
-arch>=4.19
-
-# Visualization
-matplotlib>=3.4.0
-seaborn>=0.11.0
-plotly>=5.1.0
-dash>=2.0.0
-
-# Development
-pytest>=6.2.5
-black>=21.7b0
-flake8>=3.9.0
-mypy>=0.910
-```
 
 ## 📚 Mathematical Foundation
 
