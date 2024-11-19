@@ -30,48 +30,21 @@ This framework provides a comprehensive solution for portfolio risk analysis by 
 
 ## 🏗️ Architecture
 
+```mermaid
 graph TD
-    %% Data Sources
     A[Market Data] --> B[Data Pipeline]
+    B --> C[Feature Engineering]
+    C --> D[Risk Engine]
+    D --> E[Portfolio Optimizer]
+    E --> F[Risk Analytics]
+    F --> G[Reporting Layer]
+    
+    B --> H[Market Regime Detection]
+    H --> D
+    
     I[Alternative Data] --> B
     J[Real-time Feeds] --> B
-    
-    %% Core Processing
-    B --> C[Feature Engineering]
-    B --> H[Market Regime Detection]
-    
-    %% Regime Detection Components
-    H --> H1[GMM Detector]
-    H --> H2[GARCH Model]
-    H --> H3[Transition Matrix]
-    
-    %% Risk Management
-    H1 & H2 & H3 --> D[Risk Engine]
-    C --> D
-    
-    %% Portfolio Management
-    D --> E[Portfolio Optimizer]
-    E --> E1[Position Sizing]
-    E --> E2[Risk Allocation]
-    E --> E3[Transaction Costs]
-    
-    %% Analytics & Reporting
-    E1 & E2 & E3 --> F[Risk Analytics]
-    F --> F1[VaR/CVaR]
-    F --> F2[Stress Testing]
-    F --> F3[Scenario Analysis]
-    
-    %% Output Layer
-    F1 & F2 & F3 --> G[Reporting Layer]
-    
-    %% Styling
-    classDef primary fill:#2374ab,stroke:#2374ab,stroke-width:2px,color:#fff
-    classDef secondary fill:#047baa,stroke:#047baa,stroke-width:2px,color:#fff
-    classDef tertiary fill:#00a7c2,stroke:#00a7c2,stroke-width:2px,color:#fff
-    
-    class A,B,C,D,E,F,G primary
-    class H,H1,H2,H3 secondary
-    class E1,E2,E3,F1,F2,F3 tertiary
+```
 
 ## 🔧 Core Components
 
