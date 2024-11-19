@@ -7,7 +7,6 @@ from arch import arch_model
 
 @dataclass
 class CopulaGARCHEngine:
-    """Advanced Copula-GARCH implementation following Jondeau & Rockinger (2006)"""
     
     COPULA_TYPES = {
         'gaussian': {
