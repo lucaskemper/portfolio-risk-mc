@@ -224,6 +224,43 @@ where:
 - Parallel processing
 - Memory efficient algorithms
 
+# Trading Signals Generator
+
+A sophisticated algorithmic trading signal generator that combines multiple technical indicators with adaptive thresholds for robust market analysis. The system employs a multi-factor approach to identify high-probability trading opportunities while managing risk.
+
+## Key Features
+
+- **Adaptive Volatility Filtering**: Dynamically adjusts signal thresholds based on market volatility regimes
+- **Multi-Factor Signal Generation**:
+  - Exponential Moving Average (EMA) crossovers
+  - Enhanced RSI with dynamic overbought/oversold levels
+  - Momentum and trend strength analysis
+  - Volume-weighted signal confirmation
+- **Risk Management**:
+  - Intelligent position sizing based on signal strength
+  - Maximum simultaneous positions limit
+  - Volatility-based exposure control
+  - Signal confidence thresholds
+
+## Signal Generation Process
+
+1. **Market Context Analysis**
+   - Volatility regime detection
+   - Trend identification using EMA crossovers
+   - Momentum evaluation across multiple timeframes
+
+2. **Signal Confirmation**
+   - RSI divergence validation
+   - Trend strength assessment
+   - Volume and volatility filters
+
+3. **Risk Filters**
+   - Dynamic threshold adjustment
+   - Position concentration limits
+   - Signal strength ranking
+
+The system is designed to adapt to changing market conditions while maintaining a disciplined approach to risk management.
+
 ## 🤝 Contributing (only for authorised users)
 
 ### Development Workflow
