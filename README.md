@@ -144,6 +144,50 @@ The Monte Carlo simulation includes various stress scenarios to test portfolio r
 - Normal market conditions
 - No additional stress factors applied
 
+
+## GARCH Implementation
+
+A sophisticated GARCH (Generalized Autoregressive Conditional Heteroskedasticity) model implementation for volatility forecasting and regime detection. The model features:
+
+### Key Features
+
+- **Enhanced Preprocessing**:
+  - Robust outlier detection using z-score methodology
+  - Intelligent missing value handling
+  - Configurable volatility targeting and rescaling
+
+- **Flexible Model Configuration**:
+  - Customizable GARCH(p,q) parameters
+  - Multiple distribution options (Student's t, Normal, etc.)
+  - Adjustable volatility targeting with annual standardization
+  - Power GARCH support
+
+- **Advanced Analytics**:
+  - Volatility regime detection with dynamic thresholds
+  - Confidence interval generation for forecasts
+  - Comprehensive model diagnostics
+  - Parameter stability checks
+
+### Usage Example
+```python
+# Initialize GARCH model with custom configuration
+model = EnhancedGARCHModel(
+    config=GARCHConfig(
+        p=1,                    # GARCH lag order
+        q=1,                    # ARCH lag order
+        dist='studentst',       # Error distribution
+        vol_targeting=True,     # Enable volatility targeting
+        target_vol=0.15        # Annual volatility target
+    )
+)
+
+# Fit model and generate forecasts
+fitted_models = model.fit(returns_data)
+forecasts = model.forecast_volatility(horizon=5)
+```
+
+The implementation provides a robust foundation for risk modeling and volatility forecasting within the broader portfolio management framework.
+
   
 ## 📦 Installation
 
