@@ -63,10 +63,49 @@ graph TD
 - Modified Sharpe Ratio
 
 ### 3. Monte Carlo Engine
-- Parallel simulation processing
-- GPU acceleration support
-- Regime-aware scenario generation
-- Efficient path calculations
+ 
+A sophisticated Monte Carlo simulation engine that combines historical scenarios, regime detection, and advanced risk management features for robust portfolio analysis.
+
+### Key Features
+
+- **Advanced Scenario Generation**:
+  - Historical market crashes (COVID-19, Black Monday, Lehman Brothers)
+  - Macroeconomic scenarios (Hyperinflation, Currency Crisis, Stagflation)
+  - Regime-dependent return generation
+  - GARCH volatility forecasting integration
+
+- **Risk Management Framework**:
+  - Dynamic position sizing
+  - Stop-loss and take-profit mechanisms
+  - Transaction cost modeling
+  - Maximum drawdown monitoring
+  - Leverage constraints
+
+- **Performance Analytics**:
+  - Comprehensive risk metrics (VaR, CVaR)
+  - Risk-adjusted returns (Sharpe, Sortino)
+  - Drawdown analysis
+  - Scenario-specific impact assessment
+
+### Usage Example
+```python
+# Initialize Monte Carlo engine with custom configuration
+engine = MonteCarloEngine(
+    signals=trading_signals,
+    returns=historical_returns,
+    config=SimConfig(
+        n_sims=10000,
+        horizon=252,
+        use_garch=True,
+        regime_detection=True
+    )
+)
+
+# Run simulation and analyze results
+portfolio_values, metrics = engine.simulate()
+```
+
+The engine provides a robust framework for stress testing portfolios under various market conditions while maintaining strict risk management controls.
 
 ## Stress Test Scenarios
 
