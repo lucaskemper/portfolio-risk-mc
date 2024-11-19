@@ -385,6 +385,7 @@ The system is designed to adapt to changing market conditions while maintaining 
 2. McNeil, A.J., Frey, R. (2000). "Estimation of Tail-Related Risk Measures"
 3. Hamilton, J.D. (1989). "A New Approach to the Economic Analysis of Time Series"
 4. Ang, A., Bekaert, G. (2002). "Regime Switches in Interest Rates"
+5. Maïnassara, Y.B., Kadmiri O., Saussereau B. (2022). "Estimation of multivariate asymmetric power GARCH models"
 
 ### Key Resources
 1. "Advances in Financial Machine Learning" by Marcos López de Prado
