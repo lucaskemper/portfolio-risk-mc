@@ -4,7 +4,6 @@ import numpy as np
 
 @dataclass
 class AdvancedRegimeEngine:
-    """Enterprise-grade market regime detection framework"""
     
     REGIME_PARAMETERS = {
         'low_volatility': {
