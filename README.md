@@ -386,6 +386,8 @@ The system is designed to adapt to changing market conditions while maintaining 
 3. Hamilton, J.D. (1989). "A New Approach to the Economic Analysis of Time Series"
 4. Ang, A., Bekaert, G. (2002). "Regime Switches in Interest Rates"
 5. Maïnassara, Y.B., Kadmiri O., Saussereau B. (2022). "Estimation of multivariate asymmetric power GARCH models"
+6. Cunchala, A. (2024). "A Basic Overview of Various Stochastic Approaches to Financial Modeling With Examples"
+
 
 ### Key Resources
 1. "Advances in Financial Machine Learning" by Marcos López de Prado
