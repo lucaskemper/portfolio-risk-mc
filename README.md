@@ -1,4 +1,4 @@
-# Portfolio Risk Analysis Framework
+# Portfolio Risk Analysis Framework - PUBLIC VERSION
 A sophisticated quantitative framework combining Monte Carlo simulation, machine learning, and advanced risk metrics, developed as part of a project for the class "Data Science & Advanced Programming, Year 1, MscF HEC Lausanne".
 
 [![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/downloads/)
