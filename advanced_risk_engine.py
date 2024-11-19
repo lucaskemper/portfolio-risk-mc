@@ -4,7 +4,6 @@ import numpy as np
 
 @dataclass
 class AdvancedRiskEngine:
-    """Enterprise-Grade Risk Management System"""
     
     # Core Risk Parameters
     RISK_LIMITS = {
