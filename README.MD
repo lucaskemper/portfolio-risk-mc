@@ -30,7 +30,6 @@ This framework provides a comprehensive solution for portfolio risk analysis by 
 
 ## 🏗️ Architecture
 
-```mermaid
 graph TD
     %% Data Sources
     A[Market Data] --> B[Data Pipeline]
