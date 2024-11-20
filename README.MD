@@ -328,7 +328,7 @@ where:
 
 # Trading Signals Generator
 
-A sophisticated algorithmic trading signal generator that combines multiple technical indicators with adaptive thresholds for robust market analysis. The system employs a multi-factor approach to identify high-probability trading opportunities while managing risk.
+A sophisticated algorithmic trading signal generator that combines multiple technical indicators with adaptive thresholds for robust market analysis. The system employs a multi-factor approach to identify high-probability trading opportunities while managing risk (this was another project that I've merged with this one).
 
 ## Key Features
 
@@ -400,7 +400,7 @@ The system is designed to adapt to changing market conditions while maintaining 
 
 Commercial Software License
 
-Copyright (c) 2024 Lucas Kemper
+Copyright © 2024 Lucas Kemper
 
 **All Rights Reserved**
 
